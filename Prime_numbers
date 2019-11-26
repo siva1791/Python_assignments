@@ -1,4 +1,4 @@
-def Prime_nos(num):
+def Prime_no(num):
     prime_list = [1,2]
     for i in range(3,n+1):
         for j in range(2,int(n+1/2)):
@@ -9,4 +9,4 @@ def Prime_nos(num):
     return prime_list
 
 n = int(input("Enter n: "))
-print(Prime_nos(n))
+print(Prime_no(n))
